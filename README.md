@@ -46,3 +46,23 @@
 
 ### Endereco da api do OMDB
 https://www.omdbapi.com/
+
+## Endpoints da aplicação
+
+| Nome do Endpoint         | URL do método                                     | Método no Postman |
+| ------------------------ | ------------------------------------------------- | ----------------- |
+| Buscar o filme pelo nome | http://localhost:8080/APIFilme/filme/omdb/Title   | GET               |
+| Salvar filme             | http://localhost:8080/APIFilme/filme              | POST              |
+| Buscar lista de filmes   | http://localhost:8080/APIFilme/filme/listarFilmes | GET               |
+| Buscar o filme pelo ID   | http://localhost:8080/APIFilme/filme/1            | GET               |
+| Deletar o filme pelo ID  | http://localhost:8080/APIFilme/filme/1            | DELETE            |
+
+## Banco de dados H2 DataBase
+
+### Endereco da url do banco de dados
+http://localhost:8080/APIFilme/h2
+
+## Swagger (OpenAPI) da API OMDB
+
+### Endereco da url do Swagger (OpenAPI) da API OMDB
+http://localhost:8080/APIFilme/swagger-ui/index.html
