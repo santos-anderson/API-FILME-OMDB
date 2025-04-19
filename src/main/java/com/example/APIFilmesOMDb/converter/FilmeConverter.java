@@ -3,7 +3,7 @@ package com.example.APIFilmesOMDb.converter;
 import com.example.APIFilmesOMDb.dto.FilmeDTO;
 import com.example.APIFilmesOMDb.model.Filme;
 import org.springframework.stereotype.Component;
-import vo.FilmeVO;
+import com.example.APIFilmesOMDb.vo.FilmeVO;
 
 @Component
 public class FilmeConverter {

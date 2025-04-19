@@ -1,4 +1,4 @@
-package vo;
+package com.example.APIFilmesOMDb.vo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
