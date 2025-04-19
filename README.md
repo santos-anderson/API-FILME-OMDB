@@ -2,8 +2,6 @@
 
 #### Desenvolvido na linguagem Java por:
 - [Anderson Alves Santos](https://github.com/santos-anderson)
-- [Janaína Cruz](https://github.com/JanaCruzS)
-- [Marcos Shirafuchi](https://github.com/marcosfshirafuchi)
 
 ## Principais Tecnologias
 
