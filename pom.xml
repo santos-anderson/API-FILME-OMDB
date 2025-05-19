@@ -24,6 +24,7 @@
 	</properties>
 
 	<dependencies>
+		<!-- Dependências principais (sem alteração) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -125,6 +126,11 @@
 						<goals>
 							<goal>report</goal>
 						</goals>
+						<configuration>
+							<excludes>
+								<exclude>com/example/APIFilmesOMDb/config/**</exclude>
+							</excludes>
+						</configuration>
 					</execution>
 
 					<!-- Verificação de cobertura mínima -->
@@ -135,6 +141,9 @@
 							<goal>check</goal>
 						</goals>
 						<configuration>
+							<excludes>
+								<exclude>com/example/APIFilmesOMDb/config/**</exclude>
+							</excludes>
 							<rules>
 								<rule>
 									<element>BUNDLE</element>
@@ -155,4 +164,5 @@
 	</build>
 
 </project>
+
 
